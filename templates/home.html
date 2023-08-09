@@ -96,11 +96,12 @@ body {
 
     <form id="post-form" method="POST" action="checkview">
         {% csrf_token %}
-        <label>Room Name</label>
-        <input type="text" name="room_name" id="room_name" width="100px" />
+       
         <label>Username</label>
         <input type="text" name="username" id="username" width="100px" />
-        <input type="submit" value="Enter Room">
+        <input type="submit" value="Enter Room"> <br>
+        <label>Room Name</label>
+        <input type="text" name="room_name" id="room_name" width="100px" />
     </form>
 </div>
 
